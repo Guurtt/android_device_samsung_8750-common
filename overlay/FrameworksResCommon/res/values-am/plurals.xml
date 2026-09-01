@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_kills_content_v2_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ ስልክዎን ከመጠን በላይ እንዲሞቅ ስላደረገ በራስ ሰር ተዘግቷል። ስልክዎ ከቀዘቀዘ በኋላ ቆየት ብለው እንደገና መክፈት ይችላሉ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች ስልክዎን ከመጠን በላይ እንዲሞቅ ስላደረጉ በራስ ሰር ተዘግተዋል። ስልክዎ ከቀዘቀዘ በኋላ ቆየት ብለው እንደገና መክፈት ይችላሉ።</item>
+    </plurals>
+    <plurals name="app_kills_content_v2_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ ታብሌትዎን ከመጠን በላይ እንዲሞቅ ስላደረገ በራስ ሰር ተዘግቷል። ታብሌትዎ ከቀዘቀዘ በኋላ ቆየት ብለው እንደገና መክፈት ይችላሉ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች ታብሌትዎን ከመጠን በላይ እንዲሞቅ ስላደረጉ በራስ ሰር ተዘግተዋል። ታብሌትዎ ከቀዘቀዘ በኋላ ቆየት ብለው እንደገና መክፈት ይችላሉ።</item>
+    </plurals>
+    <plurals name="app_kills_title_v2">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ ተዘግቷል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች ተዘግተዋል</item>
+    </plurals>
+    <plurals name="hot_key_guide_message">
+        <item quantity="zero">Open the app you want to assign, then press and hold the app key for %d seconds.</item>
+        <item quantity="one">Open the app you want to assign, then press and hold the app key for %d second.</item>
+        <item quantity="two">Open the app you want to assign, then press and hold the app key for %d seconds.</item>
+        <item quantity="few">Open the app you want to assign, then press and hold the app key for %d seconds.</item>
+        <item quantity="many">Open the app you want to assign, then press and hold the app key for %d seconds.</item>
+        <item quantity="other">Open the app you want to assign, then press and hold the app key for %d seconds.</item>
+    </plurals>
+    <plurals name="ltb_warning_content_v2_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ስልክዎ ከመጠን በላይ እንዲሞቅ እያደረገ ነው። በ %2$d ሰከንድ ውስጥ በራስ-ሰር ይዘጋል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ስልክዎ ከመጠን በላይ እንዲሞቅ እያደረገ ነው። በ %2$d ሰከንዶች ውስጥ በራስ-ሰር ይዘጋል።</item>
+    </plurals>
+    <plurals name="ltb_warning_content_v2_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ታብሌቶ ከመጠን በላይ እንዲሞቅ እያደረገ ነው። በ %2$d ሰከንድ ውስጥ በራስ-ሰር ይዘጋል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ታብሌቶ ከመጠን በላይ እንዲሞቅ እያደረገ ነው። በ %2$d ሰከንዶች ውስጥ በራስ-ሰር ይዘጋል።</item>
+    </plurals>
+    <plurals name="maintenance_mode_backup_cloud_menu_sub_textview_message_default">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">እስከ %d ቀን ድረስ ያልተገደበ ውሂብ ተጠባባቂ ወደ Samsung Cloud ያስቀምጡ ወይም ያስቀመጡትን ውሂብ እንደገና ወደ ቦታ ይመልሱ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">እስከ %d ቀናት ድረስ ያልተገደበ ውሂብ ተጠባባቂ ወደ Samsung Cloud ያስቀምጡ ወይም ያስቀመጡትን ውሂብ እንደገና ወደ ቦታ ይመልሱ።</item>
+    </plurals>
+    <plurals name="overheat_warning_content_v2_phone">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ስልክዎ ከመጠን በላይ እንዲሞቅ እያደረገ ነው። አሁን መዝጋት ይችላሉ፣ ካልሆነ በ %2$d ሰከንድ ውስጥ በራስ-ሰር ይዘጋል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ስልክዎ ከመጠን በላይ እንዲሞቅ እያደረገ ነው። አሁን መዝጋት ይችላሉ፣ ካልሆነ በ %2$d ሰከንዶች ውስጥ በራስ-ሰር ይዘጋል።</item>
+    </plurals>
+    <plurals name="overheat_warning_content_v2_tablet">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ታብሌትዎ ከመጠን በላይ እንዲሞቅ እያደረገ ነው። አሁን መዝጋት ይችላሉ፣ ካልሆነ በ %2$d ሰከንድ ውስጥ በራስ-ሰር ይዘጋል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ታብሌትዎ ከመጠን በላይ እንዲሞቅ እያደረገ ነው። አሁን መዝጋት ይችላሉ፣ ካልሆነ በ %2$d ሰከንዶች ውስጥ በራስ-ሰር ይዘጋል።</item>
+    </plurals>
+    <plurals name="pinpuk_attempts">
+        <item quantity="one">ሲምዎ ከመቆለፉ በፊት %d ሙከራዎች ይቀሩዎታል።</item>
+        <item quantity="other">ሲምዎ ከመቆለፉ በፊት %d ሙከራዎች ይቀሩዎታል።</item>
+    </plurals>
+    <plurals name="sem_chooser_preview_items">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ንጥል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ንጥሎች</item>
+    </plurals>
+    <plurals name="wifi_kt_iptv_connection_fail_toast_content">
+        <item quantity="zero">The Wi-Fi network you want to connect to can only be connected to %d devices at a time. Disconnect any other devices from that network, then try again.</item>
+        <item quantity="one">The Wi-Fi network you want to connect to can only be connected to %d device at a time. Disconnect any other devices from that network, then try again.</item>
+        <item quantity="two">The Wi-Fi network you want to connect to can only be connected to %d devices at a time. Disconnect any other devices from that network, then try again.</item>
+        <item quantity="few">The Wi-Fi network you want to connect to can only be connected to %d devices at a time. Disconnect any other devices from that network, then try again.</item>
+        <item quantity="many">The Wi-Fi network you want to connect to can only be connected to %d devices at a time. Disconnect any other devices from that network, then try again.</item>
+        <item quantity="other">The Wi-Fi network you want to connect to can only be connected to %d devices at a time. Disconnect any other devices from that network, then try again.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_time_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ሰዓት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ሰዓታት</item>
+    </plurals>
+    <plurals name="zen_mode_duration_time_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ደቂቃ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ደቂቃዎች</item>
+    </plurals>
+</resources>
