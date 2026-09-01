@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <staging-public-group type="array" first-id="0x019c0000">
+        <public name="config_watchFacePermissions" />
+    </staging-public-group>
+    <staging-public-group type="color" first-id="0x019d0000">
+        <public name="system_inverse_on_surface_light" />
+        <public name="system_inverse_primary_light" />
+        <public name="system_inverse_surface_light" />
+        <public name="system_scrim_light" />
+        <public name="system_shadow_light" />
+        <public name="system_surface_tint_light" />
+        <public name="system_inverse_on_surface_dark" />
+        <public name="system_inverse_primary_dark" />
+        <public name="system_inverse_surface_dark" />
+        <public name="system_scrim_dark" />
+        <public name="system_shadow_dark" />
+        <public name="system_surface_tint_dark" />
+        <public name="system_error_dim_light" />
+        <public name="system_palette_key_color_error_light" />
+        <public name="system_primary_dim_light" />
+        <public name="system_secondary_dim_light" />
+        <public name="system_tertiary_dim_light" />
+        <public name="system_error_dim_dark" />
+        <public name="system_palette_key_color_error_dark" />
+        <public name="system_primary_dim_dark" />
+        <public name="system_secondary_dim_dark" />
+        <public name="system_tertiary_dim_dark" />
+    </staging-public-group>
+    <staging-public-group type="string" first-id="0x019f0000">
+        <public name="config_defaultOnDeviceIntelligenceService" />
+        <public name="config_defaultOnDeviceSandboxedInferenceService" />
+        <public name="config_defaultOnDeviceIntelligenceDeviceConfigNamespace" />
+    </staging-public-group>
+    <staging-public-group type="attr" first-id="0x01a20000">
+        <public name="optional" />
+        <public name="alternateLauncherIcons" />
+        <public name="alternateLauncherLabels" />
+        <public name="runInPccSandbox" />
+    </staging-public-group>
+</resources>
