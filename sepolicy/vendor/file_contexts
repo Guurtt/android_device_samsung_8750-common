@@ -1,0 +1,119 @@
+# efs files
+/efs/Battery(/.*)?                           u:object_r:battery_efs_file:s0
+/efs/DAK(/.*)?                               u:object_r:dak_efs_file:s0
+/efs/FactoryApp(/.*)?                        u:object_r:app_efs_file:s0
+/efs/afc(/.*)?                               u:object_r:sec_efs_file:s0
+/efs/biometrics(/.*)?                        u:object_r:sec_efs_file:s0
+/efs/cirrus(/.*)?                            u:object_r:sec_efs_file:s0
+/efs/imei(/.*)?                              u:object_r:imei_efs_file:s0
+/efs/recovery(/.*)?                          u:object_r:sec_efs_file:s0
+/efs/sec_efs(/.*)?                           u:object_r:sec_efs_file:s0
+/efs/usb_hw_param(/.*)?                      u:object_r:sec_efs_file:s0
+
+# mnt/efs files
+/mnt/vendor/efs(/.*)?                        u:object_r:sec_efs_file:s0
+/mnt/vendor/efs/DAK(/.*)?                    u:object_r:dak_efs_file:s0
+/mnt/vendor/efs/bluetooth(/.*)?              u:object_r:bluetooth_efs_file:s0
+/mnt/vendor/efs/camera(/.*)?                 u:object_r:camera_efs_file:s0
+/mnt/vendor/efs/prov(/.*)?                   u:object_r:dak_efs_file:s0
+/mnt/vendor/efs/prov_data(/.*)?              u:object_r:dak_efs_file:s0
+/mnt/vendor/efs/spen(/.*)?                   u:object_r:spen_efs_file:s0
+/mnt/vendor/efs/tee(/.*)?                    u:object_r:tee_efs_file:s0
+/mnt/vendor/efs/wifi(/.*)?                   u:object_r:wifi_efs_file:s0
+
+# Battery
+/sys/class/power_supply(/.*)?                                                                   u:object_r:sysfs_batteryinfo:s0
+/sys/class/power_supply/battery(/.*)?                                                           u:object_r:sysfs_batteryinfo:s0
+/sys/devices/platform/soc/soc:battery/power_supply(/.*)?                                        u:object_r:sysfs_batteryinfo:s0
+
+# Convergence data
+/data/vendor/conn(/.*)?                      u:object_r:vendor_convergence_data_file:s0
+
+# Fingerprint data
+/data/vendor/biometrics(/.*)?                u:object_r:vendor_biometrics_data_file:s0
+
+# Firmware
+/odm/firmware(/.*)?                          u:object_r:vendor_firmware_file:s0
+
+# Hermesd device
+/dev/k250a                                   u:object_r:k250a_device:s0
+
+# NFC device
+/dev/pn547                                   u:object_r:nfc_device:s0
+
+# Radio device
+/dev/drb                                     u:object_r:drb_device:s0
+
+# Secradio data
+/data/vendor/secradio(/.*)?                  u:object_r:vendor_radio_vendor_data_file:s0
+
+# Secure Element device
+/dev/p61                                     u:object_r:secure_element_device:s0
+
+# Serial device
+/dev/ttyGS[0-9]*                             u:object_r:serial_device:s0
+/dev/ttyHS[0-9]*                             u:object_r:serial_device:s0
+
+# SPen
+/sys/devices/virtual/sec/sec_epen(/.*)?                                                             u:object_r:vendor_sysfs_spen:s0
+
+# Goodix fingerprint device
+/dev/goodix_fp                               u:object_r:goodix_fingerprint_device:s0
+
+# Touchscreen
+/sys/devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a90000.spi/spi_master/spi[0-9]/spi[0-9].[0-9]/wakeup(/.*)? u:object_r:sysfs_wakeup:s0
+
+# UFS Devices
+/dev/block/platform/soc/1d84000.ufshc/by-name/abl            u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/aop_config     u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/aop            u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/apdp           u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/cpucp_dtb      u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/cpucp          u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/devcfg         u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/dsp            u:object_r:dsp_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/dtbo           u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/efs            u:object_r:efs_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/hyp            u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/imagefv        u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/init_boot      u:object_r:boot_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/keymaster      u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/modem          u:object_r:vendor_modem_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/omr            u:object_r:omr_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/persistent     u:object_r:frp_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/pvmfw          u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/qupfw          u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/qweslicstore   u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/sec_efs        u:object_r:sec_efs_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/shrm           u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/tz             u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/uefisecapp     u:object_r:vendor_uefi_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/uefi           u:object_r:vendor_uefi_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/vbmeta_system  u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/vbmeta         u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/vendor_boot    u:object_r:boot_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/vendor_dlkm    u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/vm-bootsys     u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/xbl_config     u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/xbl_ramdump    u:object_r:vendor_custom_ab_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/xbl            u:object_r:vendor_xbl_block_device:s0
+
+# Vendor
+/(vendor|system/vendor)/bin/factory\.ssc                                                                     u:object_r:factory_ssc_exec:s0
+/(vendor|system/vendor)/bin/hermesd                                                                          u:object_r:hermesd_exec:s0
+/(vendor|system/vendor)/bin/hw/android.hardware.sensors-service.samsung-multihal                             u:object_r:hal_sensors_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint(@[0-9].[0-9])?-service\.samsung    u:object_r:hal_fingerprint_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.health-service\.samsung                                    u:object_r:hal_health_default_exec:s0
+/(vendor|system/vendor)/bin/hw/secaudiohalaidl                                                               u:object_r:hal_audio_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch-service\.samsung(-q5q)?                                u:object_r:hal_lineage_touch_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.spen-service                                       u:object_r:hal_samsung_spen_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay-service.samsung-qcom                             u:object_r:hal_lineage_livedisplay_qti_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.powershare-service\.samsung                                  u:object_r:hal_lineage_powershare_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.secure_element@1\.2-service                                u:object_r:hal_secure_element_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.vibrator-service\.samsung                                  u:object_r:hal_vibrator_default_exec:s0
+/(vendor|system/vendor)/bin/hw/sehradiomanager                                                               u:object_r:sehradiomanager_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.camera\.provider-service_64                        u:object_r:hal_camera_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.thermal-service                                    u:object_r:hal_thermal_default_exec:s0
+/(vendor|system/vendor)/bin/hw/samsung\.software\.media\.c2@1\.0-service                                     u:object_r:mediacodec_exec:s0
+/(vendor|system/vendor)/bin/secril_config_svc                                                                u:object_r:vendor_secril_config_svc_exec:s0
+/(vendor|system/vendor)/bin/hw/macloader                                                                     u:object_r:macloader_exec:s0
